@@ -1,0 +1,48 @@
+div.center table {
+				margin-top:75px;
+				margin-left:303px;
+				width: 76.8%;}
+				
+div.sizes a		{text-decoration: none;
+				color: #000;
+				font-size:17px;} 
+
+div.sizes a:hover{color:#999;}
+
+div.sizes table	{width: 80%;
+				color: #000; 
+				height: 23px;
+				margin-left:100px;}
+
+
+		
+	.menu	{text-align: center;
+			width: auto}
+
+	.menuword {width:auto;}
+
+	.menu a {
+			display:block;
+			padding:5px;}
+			
+
+						
+div.sizes td img.large	{height: 0; 
+						width: 0; 
+						border-width: 0} 
+/* hide the larger image by setting its height and width to zero */
+
+div.sizes td:hover img.large	
+							{position: absolute;
+							bottom:250px;
+							left:1px; 
+							margin-left:400px;
+							width: 220px;
+							height: auto;
+							border:none} 
+
+
+/* make the larger image appear on the right when a user hovers over one of the smaller images 
+on the left side of the Web page */
+
+
